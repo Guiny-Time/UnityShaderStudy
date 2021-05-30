@@ -8,7 +8,7 @@
 ## 学习路线
 常规建议：
 - 图形学
-- cg
+- cg/hlsl/glsl
 - shaderlab
 
 ## 参考
