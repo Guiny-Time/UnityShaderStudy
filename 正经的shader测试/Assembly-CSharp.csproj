@@ -37,7 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -582,61 +581,61 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/Unity项目/正经的shader测试/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
