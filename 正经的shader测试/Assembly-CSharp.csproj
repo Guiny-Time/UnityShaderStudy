@@ -36,7 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Scripts\CustomShaderGUI.cs" />
+     <None Include="Assets\Shaders\UnlitYYDS.shader" />
+     <None Include="Assets\Shaders\Lec3.1.shader" />
+     <None Include="Assets\Shaders\GUI测试.shader" />
+     <None Include="Assets\Shaders\ShaderGUI测试.shader" />
+     <None Include="Assets\Shaders\命名测试.shader" />
+     <None Include="Assets\Shaders\Lec3.2.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
