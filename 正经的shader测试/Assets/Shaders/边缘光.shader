@@ -1,4 +1,4 @@
-﻿Shader "Customer/子弹边缘光"
+﻿Shader "Custom/子弹边缘光"
 {
     Properties
     {
