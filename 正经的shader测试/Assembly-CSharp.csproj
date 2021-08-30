@@ -44,6 +44,8 @@
      <None Include="Assets\Shaders\Lec5.2.shader" />
      <None Include="Assets\Shaders\GUI测试.shader" />
      <None Include="Assets\Shaders\边缘光.shader" />
+     <None Include="Assets\Shaders\半兰伯特模型.shader" />
+     <None Include="Assets\Shaders\逐顶点高光.shader" />
      <None Include="Assets\Shaders\逐片元漫反射.shader" />
      <None Include="Assets\Shaders\ShaderGUI测试.shader" />
      <None Include="Assets\Shaders\命名测试.shader" />
@@ -592,14 +594,8 @@
     <Reference Include="System.Xml.XPath.XDocument">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -615,12 +611,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>

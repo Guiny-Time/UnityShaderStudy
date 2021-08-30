@@ -1,21 +1,23 @@
 ﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+// 本代码不适用于URP/HDRP，需用HLSL重写，仅适用于内置渲染管道
 
 Shader "Custom/逐顶点漫反射"
 {
     Properties{
-        _Diffuse("漫反射颜色", Color) = (1, 1, 1, 1)        // 漫反射的颜色，默认为白色
+        _Diffuse("漫反射颜色", Color) = (1.0, 1.0, 1.0, 1.0)        // 漫反射的颜色，默认为白色
     }
     
     SubShader
     {
         Pass
         {
-            Tags{ "LightMode" = "ForwardBase"}
+            Tags{ "LightMode" = "ForwardBase" }
 
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+
             #include "Lighting.cginc"
 
             fixed4 _Diffuse;                            // 为了使用属性中定义的漫反射的颜色而声明的变量（材质的漫反射属性）
