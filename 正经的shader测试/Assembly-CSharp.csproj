@@ -41,9 +41,12 @@
      <None Include="Assets\Shaders\逐顶点漫反射.shader" />
      <None Include="Assets\Shaders\UnlitYYDS.shader" />
      <None Include="Assets\Shaders\Lec3.1.shader" />
+     <None Include="Assets\Shaders\Blinn-Phong高光模型.shader" />
+     <None Include="Assets\Shaders\逐像素高光.shader" />
      <None Include="Assets\Shaders\Lec5.2.shader" />
      <None Include="Assets\Shaders\GUI测试.shader" />
      <None Include="Assets\Shaders\边缘光.shader" />
+     <None Include="Assets\Shaders\单张纹理.shader" />
      <None Include="Assets\Shaders\半兰伯特模型.shader" />
      <None Include="Assets\Shaders\逐顶点高光.shader" />
      <None Include="Assets\Shaders\逐片元漫反射.shader" />

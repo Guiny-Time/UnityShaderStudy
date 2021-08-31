@@ -27,12 +27,12 @@ Shader "Custom/逐片元漫反射"
  
             struct a2v{
                 float4 vertex : POSITION;           // 获取模型空间顶点位置
-                float3 normal : NORMAL;             // 获取模型空间法线位置
+                float3 normal : NORMAL;             // 获取模型空间顶点法线位置
             };
  
             struct v2f{
                 float4 pos : SV_POSITION;           // 获取裁剪空间像素位置
-                fixed3 worldNormal : TEXCOORD0;     // 获取世界法线(纹理坐标)
+                fixed3 worldNormal : TEXCOORD0;     // 获取像素世界法线(纹理坐标)
             };
 
             // 顶点着色器，基本任务为将顶点位置由模型空间转换到裁剪空间
