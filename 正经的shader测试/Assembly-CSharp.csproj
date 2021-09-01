@@ -48,9 +48,11 @@
      <None Include="Assets\Shaders\边缘光.shader" />
      <None Include="Assets\Shaders\单张纹理.shader" />
      <None Include="Assets\Shaders\半兰伯特模型.shader" />
+     <None Include="Assets\Shaders\世界空间法线纹理.shader" />
      <None Include="Assets\Shaders\逐顶点高光.shader" />
      <None Include="Assets\Shaders\逐片元漫反射.shader" />
      <None Include="Assets\Shaders\ShaderGUI测试.shader" />
+     <None Include="Assets\Shaders\切线空间法线纹理.shader" />
      <None Include="Assets\Shaders\命名测试.shader" />
      <None Include="Assets\Shaders\Lec3.2.shader" />
      <None Include="Assets\Shaders\Lec5.1.shader" />
