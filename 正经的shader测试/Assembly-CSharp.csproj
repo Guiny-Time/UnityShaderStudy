@@ -55,6 +55,7 @@
      <None Include="Assets\Shaders\切线空间法线纹理.shader" />
      <None Include="Assets\Shaders\命名测试.shader" />
      <None Include="Assets\Shaders\Lec3.2.shader" />
+     <None Include="Assets\Shaders\渐变纹理.shader" />
      <None Include="Assets\Shaders\Lec5.1.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

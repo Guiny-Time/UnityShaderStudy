@@ -42,6 +42,7 @@ Shader "Custom/世界空间法线纹理"
 				float4 TtoW1 : TEXCOORD2;  
 				float4 TtoW2 : TEXCOORD3; 
 			};
+			
 
             v2f vert(a2v v) {
 				v2f o;
