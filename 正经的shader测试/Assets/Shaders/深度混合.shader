@@ -1,58 +1,28 @@
-﻿Shader "Unlit/深度混合"
+﻿Shader "Custom/深度混合"
 {
-    Properties
-    {
-        _MainTex ("Texture", 2D) = "white" {}
+    Properties{
+        _Color("主色调", Color) = (1.0, 1.0, 1.0, 1.0)
+        _MainTex("纹理贴图", 2D) = "white"{}
+        _AlphaScale("透明度范围", Range(0, 1)) = 1
     }
-    SubShader
-    {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
 
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            // make fog work
-            #pragma multi_compile_fog
+    fixed4 _Color;
+    sampler2D _MainTex;
+    fixed _AlphaScale;
 
-            #include "UnityCG.cginc"
+    SubShader{
+        Tags{ 
+            "Queue" = "Transparent"
+            "IgnoreProjector" = "True"
+            "RenderType" = "Transparent"
+        }
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
-            };
-
-            struct v2f
-            {
-                float2 uv : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
-                float4 vertex : SV_POSITION;
-            };
-
-            sampler2D _MainTex;
-            float4 _MainTex_ST;
-
-            v2f vert (appdata v)
-            {
-                v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                UNITY_TRANSFER_FOG(o,o.vertex);
-                return o;
-            }
-
-            fixed4 frag (v2f i) : SV_Target
-            {
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
-                // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
-                return col;
-            }
-            ENDCG
+        Pass{
+            Tags{ "LightMode" = "ForwardBase" }
+            // 关闭深度写入，准备深度混合
+            ZWrite Off;
+            Blend SrcAlpha OneMinusSrcAlpha;    // 将源颜色混合因子设置成SrcAlpha，目标颜色的混合因子设置成OneMinusSrcAplha
         }
     }
+    
 }
