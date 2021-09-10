@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CustomShaderGUI.cs" />
      <Compile Include="Assets\VFX_Graphs\VFXController.cs" />
+     <Compile Include="Assets\Scripts\Grid.cs" />
      <None Include="Assets\Shaders\逐顶点漫反射.shader" />
      <None Include="Assets\Shaders\UnlitYYDS.shader" />
      <None Include="Assets\Shaders\Lec3.1.shader" />
@@ -47,6 +48,7 @@
      <None Include="Assets\Shaders\Lec5.2.shader" />
      <None Include="Assets\Shaders\GUI测试.shader" />
      <None Include="Assets\Shaders\边缘光.shader" />
+     <None Include="Assets\Shaders\去你妈的.shader" />
      <None Include="Assets\Shaders\单张纹理.shader" />
      <None Include="Assets\Shaders\半兰伯特模型.shader" />
      <None Include="Assets\Shaders\世界空间法线纹理.shader" />
@@ -55,6 +57,7 @@
      <None Include="Assets\Shaders\ShaderGUI测试.shader" />
      <None Include="Assets\Shaders\深度混合.shader" />
      <None Include="Assets\Shaders\切线空间法线纹理.shader" />
+     <None Include="Assets\Materials\顶点表面测试.shader" />
      <None Include="Assets\Shaders\命名测试.shader" />
      <None Include="Assets\Shaders\Lec3.2.shader" />
      <None Include="Assets\Shaders\渐变纹理.shader" />
