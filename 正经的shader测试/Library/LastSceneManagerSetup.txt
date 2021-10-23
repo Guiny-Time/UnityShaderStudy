@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/\u5730\u5F62\u6D4B\u8BD5.unity"
+- path: Assets/SoftBodyDemo-master/Assets/Scenes/Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
