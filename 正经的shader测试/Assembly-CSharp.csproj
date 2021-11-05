@@ -60,7 +60,7 @@
      <None Include="Assets\Shaders\UnlitYYDS.shader" />
      <None Include="Assets\Shaders\Lec3.1.shader" />
      <None Include="Assets\Shaders\光照\Blinn-Phong高光模型.shader" />
-     <None Include="Assets\Shaders\深度测试.shader" />
+     <None Include="Assets\Shaders\透明\深度测试.shader" />
      <None Include="Assets\Shaders\光照\逐像素高光.shader" />
      <None Include="Assets\Shaders\Lec5.2.shader" />
      <None Include="Assets\Shaders\GUI测试.shader" />
@@ -68,13 +68,13 @@
      <None Include="Assets\Shaders\纹理\单张纹理.shader" />
      <None Include="Assets\SoftBodyDemo-master\Assets\Shaders\Circle.shader" />
      <None Include="Assets\Shaders\光照\半兰伯特模型.shader" />
-     <None Include="Assets\Shaders\世界空间法线纹理.shader" />
+     <None Include="Assets\Shaders\纹理\世界空间法线纹理.shader" />
      <None Include="Assets\Shaders\光照\逐顶点高光.shader" />
      <None Include="Assets\SoftBodyDemo-master\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Shaders\光照\逐片元漫反射.shader" />
      <None Include="Assets\Shaders\ShaderGUI测试.shader" />
-     <None Include="Assets\Shaders\深度混合.shader" />
-     <None Include="Assets\Shaders\切线空间法线纹理.shader" />
+     <None Include="Assets\Shaders\透明\深度混合.shader" />
+     <None Include="Assets\Shaders\纹理\切线空间法线纹理.shader" />
      <None Include="Assets\Materials\顶点表面测试.shader" />
      <None Include="Assets\Shaders\命名测试.shader" />
      <None Include="Assets\Shaders\Lec3.2.shader" />
