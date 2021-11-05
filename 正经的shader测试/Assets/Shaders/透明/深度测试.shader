@@ -15,7 +15,8 @@ Shader "Custom/透明度测试"
 		
 		Pass {
 			Tags { "LightMode"="ForwardBase" }
-			
+			// 关闭剔除，这样的结果是可以让不被摄像机照到的地方出现在屏幕前。Front：前向；Back：后方；Off：关闭
+			Cull Off
 			CGPROGRAM
 			
 			#pragma vertex vert

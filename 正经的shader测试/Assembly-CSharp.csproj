@@ -71,6 +71,7 @@
      <None Include="Assets\Shaders\纹理\世界空间法线纹理.shader" />
      <None Include="Assets\Shaders\光照\逐顶点高光.shader" />
      <None Include="Assets\SoftBodyDemo-master\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\Shaders\透明\双面渲染深度混合.shader" />
      <None Include="Assets\Shaders\光照\逐片元漫反射.shader" />
      <None Include="Assets\Shaders\ShaderGUI测试.shader" />
      <None Include="Assets\Shaders\透明\深度混合.shader" />
