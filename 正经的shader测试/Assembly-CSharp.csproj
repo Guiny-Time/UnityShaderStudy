@@ -57,6 +57,7 @@
      <Compile Include="Assets\SoftBodyDemo-master\Assets\Scripts\Blob.cs" />
      <Compile Include="Assets\Scripts\Grid.cs" />
      <None Include="Assets\Shaders\光照\逐顶点漫反射.shader" />
+     <None Include="Assets\Shaders\噪声\BurnDown.shader" />
      <None Include="Assets\Shaders\UnlitYYDS.shader" />
      <None Include="Assets\Shaders\Lec3.1.shader" />
      <None Include="Assets\Shaders\光照\Blinn-Phong高光模型.shader" />
@@ -81,6 +82,7 @@
      <None Include="Assets\Shaders\Lec3.2.shader" />
      <None Include="Assets\Shaders\纹理\渐变纹理.shader" />
      <None Include="Assets\Shaders\Lec5.1.shader" />
+     <None Include="Assets\Shaders\非真实感渲染\卡渲.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>S:/gitHub/UnityShaderStudy/正经的shader测试/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

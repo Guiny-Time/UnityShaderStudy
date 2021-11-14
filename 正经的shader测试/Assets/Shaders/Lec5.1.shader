@@ -16,7 +16,7 @@ Shader "Lec5/简单的顶点着色器"      // 保持良好的命名习惯
             // POSITION是输入，代表顶点的位置
             // SV_POSITION是输出，代表裁剪空间的位置
             float4 vert(float4 v : POSITION) : SV_POSITION{
-                return UnityObjectToClipPos (v);
+                return UnityObjectToClipPos(v);
             }
 
             // 返回值为“把输出颜色存储到一个渲染目标(target)”的float4类型
