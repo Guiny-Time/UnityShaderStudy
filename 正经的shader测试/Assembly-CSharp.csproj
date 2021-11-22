@@ -79,6 +79,7 @@
      <None Include="Assets\Shaders\纹理\切线空间法线纹理.shader" />
      <None Include="Assets\Materials\顶点表面测试.shader" />
      <None Include="Assets\Shaders\命名测试.shader" />
+     <None Include="Assets\Shaders\多光源\前向渲染（多光源）.shader" />
      <None Include="Assets\Shaders\Lec3.2.shader" />
      <None Include="Assets\Shaders\纹理\渐变纹理.shader" />
      <None Include="Assets\Shaders\Lec5.1.shader" />
