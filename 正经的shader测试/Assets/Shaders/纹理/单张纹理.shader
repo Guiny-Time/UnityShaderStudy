@@ -6,10 +6,13 @@
         _MainTex("纹理", 2D) = "white" {}
         _Specular("高光反射颜色", Color) = (1.0, 1.0, 1.0, 1.0)
         _Gloss("光泽度", Range(8.0, 256)) = 20
+        _OffsetFactor("偏移系数",Float) = 0
+        _OffsetUnit("偏移单元",Float) = 0
     }
     SubShader{
         Pass{
             Tags{ "LightMode" = "ForwardBase" }
+            Offset [_OffsetFactor],[_OffsetUnit]
 
             CGPROGRAM
             #pragma vertex vert
