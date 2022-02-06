@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Z-Fighting.unity
+- path: "Assets/Scenes/demo/\u7EAA\u5FF5\u7891\u8C37.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

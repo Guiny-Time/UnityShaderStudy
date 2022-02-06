@@ -3,10 +3,10 @@
     Properties
     {
         _MainColor ("MainColor", Color) = (0,0,0,1)
-        _InSideRimColor ("InSideRimColor", Color) = (1,1,1,1)
         
-        _InSideRimPower("InSideRimPower", Range(0.0,5)) = 0                 //边缘光强度,这个值可以控制菲涅尔影响范围的大小，这个值越大，效果上越边缘化
-        _InSideRimIntensity("InSideRimIntensity", Range(0.0, 10)) = 0       //边缘光强度系数 这个值是反射的强度， 值越大，返回的强度越大，导致边缘的颜色不那么明显  
+        _InSideRimColor ("InSideRimColor", Color) = (1,1,1,1)               // 边缘光颜色
+        _InSideRimPower("InSideRimPower", Range(0.0,5)) = 0                 // 边缘光强度,这个值可以控制菲涅尔影响范围的大小，这个值越大，效果上越边缘化
+        _InSideRimIntensity("InSideRimIntensity", Range(0, 50)) = 0       // 边缘光强度系数 这个值是反射的强度， 值越大，返回的强度越大，导致边缘的颜色不那么明显  
         
         _MainTex("纹理", 2D) = "white" {}
         _Specular("高光反射颜色", Color) = (1.0, 1.0, 1.0, 1.0)
@@ -61,7 +61,7 @@
             {
                 const fixed3 albedo = tex2D(_MainTex, i.uv).rgb * _MainColor.rgb;               // 反照率，对贴图进行纹理采样（计算出的纹素值与主色调相乘）
                 const fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
-                _InSideRimIntensity = 4*sin(_Time.z) + 5;
+
                 
                 i.wold_normal = normalize(i.wold_normal);                                       //下面计算方式套用菲涅尔计算
                 float3 worldViewDir = normalize(_WorldSpaceCameraPos.xyz - i.vertexWorld.xyz);  //获取单位视角方向
@@ -70,7 +70,7 @@
                 
                 half NdotV = max(0, dot(i.wold_normal, worldViewDir));                          // 计算法线方向和视角方向点积,约靠近边缘夹角越大，值约小，那就是会越在圆球中间约亮，越边缘约暗
                 NdotV = 1.0-NdotV;
-                float fresnel =pow(NdotV,_InSideRimPower)*_InSideRimIntensity;
+                float fresnel = pow(NdotV,_InSideRimPower) * _InSideRimIntensity;
                 float3  Emissive=_InSideRimColor.rgb*fresnel;                                   // 内边缘光颜色
                 return fixed4(Emissive + diffuse + ambient,1.0);
             }
